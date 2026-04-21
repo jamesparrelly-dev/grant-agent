@@ -11,7 +11,7 @@ import anthropic
 
 RAW_GRANTS_FILE = Path("raw_grants.json")
 SCORED_GRANTS_FILE = Path("scored_grants.json")
-EXISTING_SCORED_FILE = Path("dashboard/grants_data.json")
+EXISTING_SCORED_FILE = Path("docs/grants_data.json")
 
 SUN_METALON_PROFILE = """
 COMPANY: Sun Metalon
@@ -195,7 +195,7 @@ def run():
         json.dump(scored, f, indent=2)
 
     # Save merged dashboard data
-    Path("dashboard").mkdir(exist_ok=True)
+    Path("docs").mkdir(exist_ok=True)
     dashboard_data = {
         "last_updated": __import__("datetime").datetime.now().isoformat(),
         "total_grants": len(all_grants),
@@ -209,7 +209,7 @@ def run():
     print(f"Scored: {len(scored)} grants")
     print(f"Errors: {len(errors)}")
     print(f"Top match: {scored[0]['title'][:50] if scored else 'None'} ({scored[0].get('score', 0)}/100 if scored else '')")
-    print(f"Saved to dashboard/grants_data.json")
+    print(f"Saved to docs/grants_data.json")
 
     return scored
 

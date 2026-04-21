@@ -1,5 +1,5 @@
 """
-build_dashboard.py — Generates static dashboard/index.html from grants_data.json
+build_dashboard.py — Generates static docs/index.html from grants_data.json
 This HTML file is committed to the repo and served via GitHub Pages
 """
 
@@ -7,8 +7,8 @@ import json
 from pathlib import Path
 from datetime import datetime
 
-GRANTS_DATA_FILE = Path("dashboard/grants_data.json")
-DASHBOARD_OUTPUT = Path("dashboard/index.html")
+GRANTS_DATA_FILE = Path("docs/grants_data.json")
+DASHBOARD_OUTPUT = Path("docs/index.html")
 
 DASHBOARD_HTML = '''<!DOCTYPE html>
 <html lang="en">
@@ -661,7 +661,7 @@ def run():
     print("Dashboard Builder")
     print(f"{'='*50}\n")
 
-    Path("dashboard").mkdir(exist_ok=True)
+    Path("docs").mkdir(exist_ok=True)
 
     # Write the dashboard HTML
     with open(DASHBOARD_OUTPUT, "w") as f:

@@ -157,7 +157,7 @@ def run():
         return
 
     # Count total in dashboard
-    dashboard_file = Path("dashboard/grants_data.json")
+    dashboard_file = Path("docs/grants_data.json")
     total = len(notifiable)
     if dashboard_file.exists():
         with open(dashboard_file) as f:
