@@ -117,68 +117,94 @@ def fetch_sbir_by_keyword():
     return grants
 
 
-def fetch_grants_gov():
-    """Fetch from Grants.gov search API"""
-    grants = []
-    print("Fetching from Grants.gov...")
+GRANTS_GOV_SEARCHES = [
+    # Targeted pass — specific to Sun Metalon's tech
+    "metal recycling scrap foundry dross slag metal recovery",
+    # Broad pass — catches adjacent manufacturing and clean-energy grants
+    "manufacturing recycling industrial materials recovery clean energy advanced manufacturing",
+]
 
-    url = "https://apply07.grants.gov/grantsws/rest/opportunities/search/"
-    payload = {
-        "keyword": "metal recycling manufacturing scrap foundry",
-        "oppStatuses": "forecasted|posted",
-        "rows": 100,
-        "startRecordNum": 0,
-        "sortBy": "openDate|desc",
-        "fundingCategories": "ST|MR|EN",  # Science & Tech, Manufacturing, Energy
-        "fundingInstruments": "G|CA"       # Grants, Cooperative Agreements
+
+def _parse_grants_gov_item(item):
+    return {
+        "id": f"gg_{item.get('id', '')}",
+        "source": "Grants.gov",
+        "title": item.get("title", ""),
+        "agency": item.get("agencyName", ""),
+        "program": "Federal Grant",
+        "description": item.get("synopsis", "") or item.get("description", ""),
+        "open_date": item.get("openDate", ""),
+        "close_date": item.get("closeDate", ""),
+        "award_amount": item.get("awardCeiling", ""),
+        "url": f"https://www.grants.gov/search-results-detail/{item.get('id', '')}",
+        "phase": "",
+        "topics": [],
+        "raw": item,
     }
 
-    try:
-        resp = requests.post(url, json=payload, timeout=30)
-        resp.raise_for_status()
-        data = resp.json()
 
-        for item in data.get("oppHits", []):
-            close_date = item.get("closeDate", "")
-            grant = {
-                "id": f"gg_{item.get('id', '')}",
-                "source": "Grants.gov",
-                "title": item.get("title", ""),
-                "agency": item.get("agencyName", ""),
-                "program": "Federal Grant",
-                "description": item.get("synopsis", "") or item.get("description", ""),
-                "open_date": item.get("openDate", ""),
-                "close_date": close_date,
-                "award_amount": item.get("awardCeiling", ""),
-                "url": f"https://www.grants.gov/search-results-detail/{item.get('id', '')}",
-                "phase": "",
-                "topics": [],
-                "raw": item
-            }
-            grants.append(grant)
+def fetch_grants_gov():
+    """Fetch from Grants.gov search API using two keyword passes."""
+    print("Fetching from Grants.gov...")
+    seen = set()
+    grants = []
 
-    except requests.RequestException as e:
-        print(f"Grants.gov API error: {e}")
+    url = "https://apply07.grants.gov/grantsws/rest/opportunities/search/"
+
+    for keyword_set in GRANTS_GOV_SEARCHES:
+        payload = {
+            "keyword": keyword_set,
+            "oppStatuses": "forecasted|posted",
+            "rows": 100,
+            "startRecordNum": 0,
+            "sortBy": "openDate|desc",
+            "fundingCategories": "ST|MR|EN|AG",  # Science & Tech, Manufacturing, Energy, Agriculture
+            "fundingInstruments": "G|CA|O",       # Grants, Cooperative Agreements, Other
+        }
+        try:
+            resp = requests.post(url, json=payload, timeout=30)
+            resp.raise_for_status()
+            for item in resp.json().get("oppHits", []):
+                gid = str(item.get("id", ""))
+                if gid and gid not in seen:
+                    seen.add(gid)
+                    grants.append(_parse_grants_gov_item(item))
+        except requests.RequestException as e:
+            print(f"  Grants.gov search error ({keyword_set[:30]}…): {e}")
 
     print(f"  → {len(grants)} Grants.gov opportunities fetched")
     return grants
 
 
+BROAD_KEYWORDS = [
+    "manufacturing", "recycling", "industrial", "materials recovery",
+    "clean energy", "advanced manufacturing", "circular economy",
+    "waste reduction", "sustainability", "decarbonization",
+]
+
+
 def is_relevant(grant):
-    """Pre-filter: basic keyword relevance check before sending to Claude"""
+    """Pre-filter before sending to Claude for scoring.
+
+    Grants.gov results are already API-filtered by keyword search, so pass
+    them all through. For SBIR, require at least one keyword or agency match.
+    """
+    if grant.get("source") == "Grants.gov":
+        return True
+
     text = (
         (grant.get("title") or "") + " " +
         (grant.get("description") or "") + " " +
         " ".join(grant.get("topics", []))
     ).lower()
 
-    keyword_hits = sum(1 for kw in SUN_METALON_KEYWORDS if kw.lower() in text)
+    all_keywords = [kw.lower() for kw in SUN_METALON_KEYWORDS + BROAD_KEYWORDS]
+    keyword_hit = any(kw in text for kw in all_keywords)
 
     agency = (grant.get("agency") or "").upper()
     agency_hit = any(a in agency for a in TARGET_AGENCIES)
 
-    # Must have at least 1 keyword hit OR be from a target agency
-    return keyword_hits > 0 or agency_hit
+    return keyword_hit or agency_hit
 
 
 def deduplicate(grants, seen_ids):
