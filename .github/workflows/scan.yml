@@ -1,0 +1,54 @@
+name: Grant Monitor — Daily Scan
+
+on:
+  schedule:
+    # 7am CT = 12:00 UTC (CST) / 13:00 UTC (CDT)
+    - cron: '0 12 * * *'
+  workflow_dispatch:  # allow manual trigger from GitHub Actions UI
+
+permissions:
+  contents: write  # needed to commit updated dashboard back to repo
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Restore seen IDs cache
+        uses: actions/cache@v4
+        with:
+          path: seen_ids.json
+          key: seen-ids-${{ github.run_id }}
+          restore-keys: seen-ids-
+
+      - name: Run grant scanner pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          DASHBOARD_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        run: python main.py
+
+      - name: Commit updated dashboard + data
+        run: |
+          git config user.name "Grant Monitor Bot"
+          git config user.email "bot@sunmetalon.com"
+          git add dashboard/grants_data.json dashboard/index.html seen_ids.json
+          git diff --staged --quiet || git commit -m "chore: update grant dashboard [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
