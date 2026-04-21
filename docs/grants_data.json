@@ -1,6 +1,27 @@
 {
-  "last_updated": "2026-04-21T11:59:27.463703",
-  "total_grants": 0,
-  "new_this_run": 0,
-  "grants": []
+  "last_updated": "2026-04-21T17:12:05.849316",
+  "total_grants": 1,
+  "new_this_run": 1,
+  "grants": [
+    {
+      "id": "gg_361604",
+      "source": "Grants.gov",
+      "title": "National Science Foundation Fostering Interdisciplinary Networks to Develop Emergent and Responsive Solutions Foundry",
+      "agency": "",
+      "program": "Federal Grant",
+      "description": "",
+      "open_date": "03/23/2026",
+      "close_date": "05/27/2026",
+      "award_amount": "",
+      "url": "https://www.grants.gov/search-results-detail/361604",
+      "phase": "",
+      "topics": [],
+      "score": 25,
+      "tier": "Weak",
+      "rationale": "The NSF FINDERS Foundry program is focused on building interdisciplinary research networks and collaborative infrastructure, not on funding specific technology development or commercialization. While 'Foundry' appears in the title, this refers to a research network model, not metal foundries relevant to Sun Metalon's technology.",
+      "key_match": "agency",
+      "flag_urgent": false,
+      "scored_at": "2026-04-21T17:12:05.849016"
+    }
+  ]
 }
