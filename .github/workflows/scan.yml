@@ -7,7 +7,9 @@ on:
   workflow_dispatch:  # allow manual trigger from GitHub Actions UI
 
 permissions:
-  contents: write  # needed to commit updated dashboard back to repo
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
   scan:
@@ -47,8 +49,8 @@ jobs:
         run: |
           git config user.name "Grant Monitor Bot"
           git config user.email "bot@sunmetalon.com"
-          git add dashboard/grants_data.json dashboard/index.html seen_ids.json
+          git add docs/grants_data.json docs/index.html seen_ids.json
           git diff --staged --quiet || git commit -m "chore: update grant dashboard [$(date -u '+%Y-%m-%d %H:%M UTC')]"
-          git push
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
