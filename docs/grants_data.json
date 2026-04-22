@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-21T17:20:56.643072",
-  "total_grants": 74,
-  "new_this_run": 73,
+  "last_updated": "2026-04-22T13:23:39.700022",
+  "total_grants": 75,
+  "new_this_run": 1,
   "grants": [
     {
       "id": "gg_359966",
@@ -1482,6 +1482,26 @@
       "key_match": "None",
       "flag_urgent": false,
       "scored_at": "2026-04-21T17:20:56.641628"
+    },
+    {
+      "id": "gg_361998",
+      "source": "Grants.gov",
+      "title": "Species Recovery Grants to States (Section 6 Program)",
+      "agency": "",
+      "program": "Federal Grant",
+      "description": "",
+      "open_date": "04/21/2026",
+      "close_date": "06/20/2026",
+      "award_amount": "",
+      "url": "https://www.grants.gov/search-results-detail/361998",
+      "phase": "",
+      "topics": [],
+      "score": 0,
+      "tier": "Not Relevant",
+      "rationale": "This is a wildlife and endangered species conservation program under the Endangered Species Act, focused on habitat restoration and species recovery for plants and animals. It has no relevance to metal manufacturing, recycling, or industrial processes.",
+      "key_match": "None - wildlife conservation program",
+      "flag_urgent": false,
+      "scored_at": "2026-04-22T13:23:39.699376"
     }
   ]
 }
