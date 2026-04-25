@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-24T13:20:03.806631",
-  "total_grants": 86,
-  "new_this_run": 6,
+  "last_updated": "2026-04-25T13:00:48.443650",
+  "total_grants": 90,
+  "new_this_run": 4,
   "grants": [
     {
       "id": "gg_359966",
@@ -102,6 +102,46 @@
       "key_match": "agency",
       "flag_urgent": false,
       "scored_at": "2026-04-21T17:20:06.172505"
+    },
+    {
+      "id": "gg_362063",
+      "source": "Grants.gov",
+      "title": "Transport Phenomena (TP)",
+      "agency": "",
+      "program": "Federal Grant",
+      "description": "",
+      "open_date": "04/24/2026",
+      "close_date": "",
+      "award_amount": "",
+      "url": "https://www.grants.gov/search-results-detail/362063",
+      "phase": "",
+      "topics": [],
+      "score": 45,
+      "tier": "Moderate",
+      "rationale": "NSF Transport Phenomena program covers heat/mass transfer and fluid mechanics which are scientifically relevant to metal purification processes, but this is a basic research program not focused on applied manufacturing or commercialization. Sun Metalon would need to frame their work as fundamental research rather than product development.",
+      "key_match": "agency",
+      "flag_urgent": false,
+      "scored_at": "2026-04-25T13:00:45.160052"
+    },
+    {
+      "id": "gg_362061",
+      "source": "Grants.gov",
+      "title": "Chemical Process Systems (CPS)",
+      "agency": "",
+      "program": "Federal Grant",
+      "description": "",
+      "open_date": "04/24/2026",
+      "close_date": "",
+      "award_amount": "",
+      "url": "https://www.grants.gov/search-results-detail/362061",
+      "phase": "",
+      "topics": [],
+      "score": 45,
+      "tier": "Moderate",
+      "rationale": "Chemical Process Systems grants from NSF typically focus on fundamental chemical engineering research rather than applied metal recycling technology. While there may be overlap in materials processing and separation science, this is likely more academic-focused than Sun Metalon's commercial-stage hardware.",
+      "key_match": "agency",
+      "flag_urgent": false,
+      "scored_at": "2026-04-25T13:00:48.442897"
     },
     {
       "id": "gg_360664",
@@ -382,6 +422,26 @@
       "key_match": "technology",
       "flag_urgent": false,
       "scored_at": "2026-04-24T13:19:44.512617"
+    },
+    {
+      "id": "gg_362064",
+      "source": "Grants.gov",
+      "title": "Engineering Environmental Resiliency (EER)",
+      "agency": "",
+      "program": "Federal Grant",
+      "description": "",
+      "open_date": "04/24/2026",
+      "close_date": "",
+      "award_amount": "",
+      "url": "https://www.grants.gov/search-results-detail/362064",
+      "phase": "",
+      "topics": [],
+      "score": 15,
+      "tier": "Not Relevant",
+      "rationale": "This DARPA program focuses on environmental resiliency for military systems and electronics, not industrial metal recycling or manufacturing processes. The grant targets hardening defense technologies against environmental stressors, which is unrelated to Sun Metalon's metal scrap purification technology.",
+      "key_match": "agency",
+      "flag_urgent": false,
+      "scored_at": "2026-04-25T13:00:37.985692"
     },
     {
       "id": "gg_306169",
@@ -1722,6 +1782,26 @@
       "key_match": "none",
       "flag_urgent": false,
       "scored_at": "2026-04-24T13:20:03.805779"
+    },
+    {
+      "id": "gg_362054",
+      "source": "Grants.gov",
+      "title": "FY26 Ruth D. Gates Coral Reef Conservation Grants - Fishery Management",
+      "agency": "",
+      "program": "Federal Grant",
+      "description": "",
+      "open_date": "04/24/2026",
+      "close_date": "07/23/2026",
+      "award_amount": "",
+      "url": "https://www.grants.gov/search-results-detail/362054",
+      "phase": "",
+      "topics": [],
+      "score": 0,
+      "tier": "Not Relevant",
+      "rationale": "This grant focuses on coral reef conservation and fishery management, which has no connection to Sun Metalon's metal recycling and purification technology. The environmental focus is marine ecosystems, not industrial manufacturing or metal recovery.",
+      "key_match": "None - completely unrelated field",
+      "flag_urgent": false,
+      "scored_at": "2026-04-25T13:00:41.714147"
     }
   ]
 }
