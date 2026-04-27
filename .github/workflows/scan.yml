@@ -1,4 +1,4 @@
-name: Grant Monitor — Daily Scan
+name: Grant Monitor Daily Scan
 
 on:
   schedule:
@@ -47,7 +47,7 @@ jobs:
       - name: Commit updated dashboard + data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: update grant dashboard"
-          file_pattern: "docs/grants_data.json docs/index.html seen_ids.json"
-          commit_user_name: "Grant Monitor Bot"
-          commit_user_email: "bot@sunmetalon.com"
+          commit_message: chore update grant dashboard
+          file_pattern: docs/grants_data.json docs/index.html seen_ids.json
+          commit_user_name: Grant Monitor Bot
+          commit_user_email: bot@sunmetalon.com
