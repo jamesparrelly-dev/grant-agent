@@ -51,6 +51,7 @@ jobs:
           git config user.email "bot@sunmetalon.com"
           git add docs/grants_data.json docs/index.html seen_ids.json
           git diff --staged --quiet || git commit -m "chore: update grant dashboard [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git pull --rebase https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
