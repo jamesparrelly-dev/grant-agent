@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-25T13:00:48.443650",
-  "total_grants": 90,
-  "new_this_run": 4,
+  "last_updated": "2026-04-27T18:13:48.482039",
+  "total_grants": 92,
+  "new_this_run": 2,
   "grants": [
     {
       "id": "gg_359966",
@@ -1242,6 +1242,46 @@
       "key_match": "None - geographic/mapping focus",
       "flag_urgent": false,
       "scored_at": "2026-04-24T13:20:00.241183"
+    },
+    {
+      "id": "gg_362080",
+      "source": "Grants.gov",
+      "title": "Methyl Bromide Transition Program",
+      "agency": "",
+      "program": "Federal Grant",
+      "description": "",
+      "open_date": "04/27/2026",
+      "close_date": "06/29/2026",
+      "award_amount": "",
+      "url": "https://www.grants.gov/search-results-detail/362080",
+      "phase": "",
+      "topics": [],
+      "score": 5,
+      "tier": "Not Relevant",
+      "rationale": "Methyl Bromide is an agricultural fumigant/pesticide being phased out under the Montreal Protocol. This program focuses on helping agricultural producers transition away from this chemical and has no connection to metal manufacturing, recycling, or industrial processes.",
+      "key_match": "none",
+      "flag_urgent": false,
+      "scored_at": "2026-04-27T18:13:45.370721"
+    },
+    {
+      "id": "gg_362078",
+      "source": "Grants.gov",
+      "title": "Open Data Framework",
+      "agency": "",
+      "program": "Federal Grant",
+      "description": "",
+      "open_date": "04/27/2026",
+      "close_date": "06/26/2026",
+      "award_amount": "",
+      "url": "https://www.grants.gov/search-results-detail/362078",
+      "phase": "",
+      "topics": [],
+      "score": 5,
+      "tier": "Not Relevant",
+      "rationale": "The grant title 'Open Data Framework' suggests a focus on data infrastructure, standards, or information sharing rather than manufacturing, metal recycling, or industrial processes. This does not align with Sun Metalon's metal scrap purification technology or target application areas.",
+      "key_match": "None - data/IT focused grant",
+      "flag_urgent": false,
+      "scored_at": "2026-04-27T18:13:48.481285"
     },
     {
       "id": "gg_361392",
