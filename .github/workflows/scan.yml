@@ -2,9 +2,8 @@ name: Grant Monitor — Daily Scan
 
 on:
   schedule:
-    # 7am CT = 12:00 UTC (CST) / 13:00 UTC (CDT)
     - cron: '0 12 * * *'
-  workflow_dispatch:  # allow manual trigger from GitHub Actions UI
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -20,7 +19,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -46,13 +45,14 @@ jobs:
         run: python main.py
 
       - name: Commit updated dashboard + data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "Grant Monitor Bot"
           git config user.email "bot@sunmetalon.com"
           git add docs/grants_data.json docs/index.html seen_ids.json
           git diff --staged --quiet && echo "Nothing to commit" && exit 0
           git commit -m "chore: update grant dashboard [$(date -u '+%Y-%m-%d %H:%M UTC')]"
-          git pull --rebase https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git main
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git fetch origin main
+          git rebase origin/main
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git main
