@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-30T13:50:24.569347",
-  "total_grants": 101,
+  "last_updated": "2026-05-01T13:15:31.514074",
+  "total_grants": 105,
   "new_this_run": 4,
   "grants": [
     {
@@ -1324,6 +1324,26 @@
       "scored_at": "2026-04-30T13:50:18.347892"
     },
     {
+      "id": "gg_362152",
+      "source": "Grants.gov",
+      "title": "NIJ FY25 Research and Development of Innovations in Forensic Science for Criminal Justice Purposes",
+      "agency": "",
+      "program": "Federal Grant",
+      "description": "",
+      "open_date": "04/30/2026",
+      "close_date": "06/02/2026",
+      "award_amount": "",
+      "url": "https://www.grants.gov/search-results-detail/362152",
+      "phase": "",
+      "topics": [],
+      "score": 5,
+      "tier": "Not Relevant",
+      "rationale": "This grant focuses on forensic science research for criminal justice purposes, which has no connection to Sun Metalon's metal recycling and purification technology. The NIJ (National Institute of Justice) mission is entirely outside Sun Metalon's target agencies and technology applications.",
+      "key_match": "agency",
+      "flag_urgent": false,
+      "scored_at": "2026-05-01T13:15:31.513268"
+    },
+    {
       "id": "gg_361392",
       "source": "Grants.gov",
       "title": "Fiscal Year 2027 National Sea Grant College Program Dean John A. Knauss Marine Policy Fellowship",
@@ -2022,6 +2042,66 @@
       "key_match": "none",
       "flag_urgent": false,
       "scored_at": "2026-04-30T13:50:24.568497"
+    },
+    {
+      "id": "gg_362143",
+      "source": "Grants.gov",
+      "title": "Agricultural Genome to Phenome Initiative - Research Grants",
+      "agency": "",
+      "program": "Federal Grant",
+      "description": "",
+      "open_date": "04/30/2026",
+      "close_date": "06/29/2026",
+      "award_amount": "",
+      "url": "https://www.grants.gov/search-results-detail/362143",
+      "phase": "",
+      "topics": [],
+      "score": 0,
+      "tier": "Not Relevant",
+      "rationale": "This grant focuses on agricultural genomics and plant/animal phenotype research, which has no connection to metal manufacturing, recycling, or industrial processes. Sun Metalon's metal scrap purification technology is completely outside the scope of agricultural genome research.",
+      "key_match": "none",
+      "flag_urgent": false,
+      "scored_at": "2026-05-01T13:15:21.867202"
+    },
+    {
+      "id": "gg_362144",
+      "source": "Grants.gov",
+      "title": "Agricultural Genome to Phenome Initiative - Workshop Grants",
+      "agency": "",
+      "program": "Federal Grant",
+      "description": "",
+      "open_date": "04/30/2026",
+      "close_date": "06/29/2026",
+      "award_amount": "",
+      "url": "https://www.grants.gov/search-results-detail/362144",
+      "phase": "",
+      "topics": [],
+      "score": 0,
+      "tier": "Not Relevant",
+      "rationale": "This grant focuses on agricultural genomics and plant/animal phenotype research, which has no connection to Sun Metalon's metal recycling and purification technology. The subject matter is entirely outside Sun Metalon's industry, technology, and target markets.",
+      "key_match": "none",
+      "flag_urgent": false,
+      "scored_at": "2026-05-01T13:15:25.157348"
+    },
+    {
+      "id": "gg_361988",
+      "source": "Grants.gov",
+      "title": "Housing Policy Research Grant Notice of Funding Opportunity",
+      "agency": "",
+      "program": "Federal Grant",
+      "description": "",
+      "open_date": "04/30/2026",
+      "close_date": "06/01/2026",
+      "award_amount": "",
+      "url": "https://www.grants.gov/search-results-detail/361988",
+      "phase": "",
+      "topics": [],
+      "score": 0,
+      "tier": "Not Relevant",
+      "rationale": "This grant focuses on housing policy research, which has no connection to Sun Metalon's metal recycling technology, manufacturing processes, or industrial operations. The subject matter is entirely outside Sun Metalon's industry and technology focus.",
+      "key_match": "none",
+      "flag_urgent": false,
+      "scored_at": "2026-05-01T13:15:28.283491"
     }
   ]
 }
