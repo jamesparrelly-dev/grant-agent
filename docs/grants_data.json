@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-07T14:06:48.110166",
-  "total_grants": 158,
-  "new_this_run": 6,
+  "last_updated": "2026-05-08T13:29:25.400268",
+  "total_grants": 160,
+  "new_this_run": 2,
   "grants": [
     {
       "id": "gg_359966",
@@ -3162,6 +3162,46 @@
       "key_match": "none",
       "flag_urgent": false,
       "scored_at": "2026-05-07T14:06:44.699654"
+    },
+    {
+      "id": "gg_361842",
+      "source": "Grants.gov",
+      "title": "PDS Lusaka and ZUEA American Spaces Programming",
+      "agency": "",
+      "program": "Federal Grant",
+      "description": "",
+      "open_date": "05/08/2026",
+      "close_date": "06/11/2027",
+      "award_amount": "",
+      "url": "https://www.grants.gov/search-results-detail/361842",
+      "phase": "",
+      "topics": [],
+      "score": 0,
+      "tier": "Not Relevant",
+      "rationale": "This grant is for cultural programming and American Spaces activities in Lusaka, Zambia (ZUEA refers to Zambia). It has no connection to metal manufacturing, recycling, industrial processes, or any of Sun Metalon's technology areas.",
+      "key_match": "None - cultural/diplomatic programming grant",
+      "flag_urgent": false,
+      "scored_at": "2026-05-08T13:29:22.138505"
+    },
+    {
+      "id": "gg_362302",
+      "source": "Grants.gov",
+      "title": "DoW Toxic Exposures Clinical Trial Award",
+      "agency": "",
+      "program": "Federal Grant",
+      "description": "",
+      "open_date": "05/07/2026",
+      "close_date": "",
+      "award_amount": "",
+      "url": "https://www.grants.gov/search-results-detail/362302",
+      "phase": "",
+      "topics": [],
+      "score": 0,
+      "tier": "Not Relevant",
+      "rationale": "This is a Department of Defense clinical trial award focused on toxic exposures and health research, not industrial manufacturing or metal recycling. It has no relevance to Sun Metalon's metal scrap purification technology or target markets.",
+      "key_match": "none",
+      "flag_urgent": false,
+      "scored_at": "2026-05-08T13:29:25.399009"
     }
   ]
 }
