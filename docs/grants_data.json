@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-12T14:19:38.821132",
-  "total_grants": 171,
-  "new_this_run": 1,
+  "last_updated": "2026-05-13T14:29:04.498890",
+  "total_grants": 173,
+  "new_this_run": 2,
   "grants": [
     {
       "id": "gg_359966",
@@ -3422,6 +3422,46 @@
       "key_match": "None - medical research grant",
       "flag_urgent": false,
       "scored_at": "2026-05-09T13:14:15.260482"
+    },
+    {
+      "id": "gg_362376",
+      "source": "Grants.gov",
+      "title": "Beginning Farmer and Rancher Development Program",
+      "agency": "",
+      "program": "Federal Grant",
+      "description": "",
+      "open_date": "05/13/2026",
+      "close_date": "06/16/2026",
+      "award_amount": "",
+      "url": "https://www.grants.gov/search-results-detail/362376",
+      "phase": "",
+      "topics": [],
+      "score": 0,
+      "tier": "Not Relevant",
+      "rationale": "This grant is focused on agricultural training and development for beginning farmers and ranchers. It has no relevance to metal manufacturing, recycling, industrial processes, or any of Sun Metalon's technology areas.",
+      "key_match": "None",
+      "flag_urgent": false,
+      "scored_at": "2026-05-13T14:29:01.350860"
+    },
+    {
+      "id": "gg_362375",
+      "source": "Grants.gov",
+      "title": "UNITED STATES DEPARTMENT OF AGRICULTURE FOOD FOR PEACE, TITLE II PROGRAM",
+      "agency": "",
+      "program": "Federal Grant",
+      "description": "",
+      "open_date": "05/13/2026",
+      "close_date": "06/12/2026",
+      "award_amount": "",
+      "url": "https://www.grants.gov/search-results-detail/362375",
+      "phase": "",
+      "topics": [],
+      "score": 0,
+      "tier": "Not Relevant",
+      "rationale": "This is a USDA Food for Peace humanitarian aid program focused on international food assistance and hunger relief. It has no connection to metal manufacturing, recycling, or industrial processes.",
+      "key_match": "none",
+      "flag_urgent": false,
+      "scored_at": "2026-05-13T14:29:04.497802"
     }
   ]
 }
