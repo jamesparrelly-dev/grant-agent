@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-14T14:06:31.266209",
-  "total_grants": 178,
-  "new_this_run": 5,
+  "last_updated": "2026-05-15T14:02:20.402373",
+  "total_grants": 180,
+  "new_this_run": 2,
   "grants": [
     {
       "id": "gg_359966",
@@ -322,6 +322,26 @@
       "key_match": "agency",
       "flag_urgent": false,
       "scored_at": "2026-04-24T13:19:57.016212"
+    },
+    {
+      "id": "gg_362393",
+      "source": "Grants.gov",
+      "title": "NASA Innovative Advanced Concepts (NIAC) Phase II",
+      "agency": "",
+      "program": "Federal Grant",
+      "description": "",
+      "open_date": "05/14/2026",
+      "close_date": "",
+      "award_amount": "",
+      "url": "https://www.grants.gov/search-results-detail/362393",
+      "phase": "",
+      "topics": [],
+      "score": 25,
+      "tier": "Weak",
+      "rationale": "NASA NIAC focuses on revolutionary aerospace concepts for future space missions, not terrestrial industrial manufacturing. While space-based metal processing could theoretically be relevant, NIAC targets early-stage futuristic concepts rather than scaling commercial technology like Sun Metalon's.",
+      "key_match": "agency",
+      "flag_urgent": false,
+      "scored_at": "2026-05-15T14:02:20.401152"
     },
     {
       "id": "gg_361526",
@@ -3562,6 +3582,26 @@
       "key_match": "none",
       "flag_urgent": false,
       "scored_at": "2026-05-14T14:06:31.265030"
+    },
+    {
+      "id": "gg_362397",
+      "source": "Grants.gov",
+      "title": "Special Research Grants Program for Aquaculture Research",
+      "agency": "",
+      "program": "Federal Grant",
+      "description": "",
+      "open_date": "05/14/2026",
+      "close_date": "06/15/2026",
+      "award_amount": "",
+      "url": "https://www.grants.gov/search-results-detail/362397",
+      "phase": "",
+      "topics": [],
+      "score": 0,
+      "tier": "Not Relevant",
+      "rationale": "This grant focuses on aquaculture (fish farming) research, which has no connection to Sun Metalon's metal scrap recycling and purification technology. There is no overlap with metal manufacturing, foundries, or industrial waste reduction.",
+      "key_match": "none",
+      "flag_urgent": false,
+      "scored_at": "2026-05-15T14:02:16.377500"
     }
   ]
 }
