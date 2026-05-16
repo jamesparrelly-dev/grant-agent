@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-15T14:02:20.402373",
-  "total_grants": 180,
-  "new_this_run": 2,
+  "last_updated": "2026-05-16T13:18:08.561947",
+  "total_grants": 181,
+  "new_this_run": 1,
   "grants": [
     {
       "id": "gg_359966",
@@ -3602,6 +3602,26 @@
       "key_match": "none",
       "flag_urgent": false,
       "scored_at": "2026-05-15T14:02:16.377500"
+    },
+    {
+      "id": "gg_362386",
+      "source": "Grants.gov",
+      "title": "Chronic Wasting Disease Cervid Management and Response Activities 2026",
+      "agency": "",
+      "program": "Federal Grant",
+      "description": "",
+      "open_date": "05/15/2026",
+      "close_date": "06/15/2026",
+      "award_amount": "",
+      "url": "https://www.grants.gov/search-results-detail/362386",
+      "phase": "",
+      "topics": [],
+      "score": 0,
+      "tier": "Not Relevant",
+      "rationale": "This grant addresses Chronic Wasting Disease in cervids (deer family), which is a wildlife/animal health management program. It has no connection to metal manufacturing, recycling, or industrial processes.",
+      "key_match": "none",
+      "flag_urgent": false,
+      "scored_at": "2026-05-16T13:18:08.560986"
     }
   ]
 }
