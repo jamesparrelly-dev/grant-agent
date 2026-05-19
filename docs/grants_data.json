@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-16T13:18:08.561947",
-  "total_grants": 181,
-  "new_this_run": 1,
+  "last_updated": "2026-05-19T14:57:32.140576",
+  "total_grants": 184,
+  "new_this_run": 3,
   "grants": [
     {
       "id": "gg_359966",
@@ -344,6 +344,26 @@
       "scored_at": "2026-05-15T14:02:20.401152"
     },
     {
+      "id": "gg_362460",
+      "source": "Grants.gov",
+      "title": "Equipment Grants Program",
+      "agency": "",
+      "program": "Federal Grant",
+      "description": "",
+      "open_date": "05/18/2026",
+      "close_date": "06/25/2026",
+      "award_amount": "",
+      "url": "https://www.grants.gov/search-results-detail/362460",
+      "phase": "",
+      "topics": [],
+      "score": 25,
+      "tier": "Weak",
+      "rationale": "The grant title 'Equipment Grants Program' is too vague without agency or program details to determine relevance. Without knowing the sponsoring agency, eligibility criteria, or focus area, this cannot be confirmed as a fit for Sun Metalon's metal recycling technology.",
+      "key_match": "agency",
+      "flag_urgent": false,
+      "scored_at": "2026-05-19T14:57:32.139392"
+    },
+    {
       "id": "gg_361526",
       "source": "Grants.gov",
       "title": "The Genesis Mission:  Transforming Science and Energy with AI",
@@ -482,6 +502,26 @@
       "key_match": "agency",
       "flag_urgent": false,
       "scored_at": "2026-05-06T14:06:20.941720"
+    },
+    {
+      "id": "gg_362444",
+      "source": "Grants.gov",
+      "title": "FY 2026 Competitive Academic Agreement Program (CAAP)",
+      "agency": "",
+      "program": "Federal Grant",
+      "description": "",
+      "open_date": "05/18/2026",
+      "close_date": "06/19/2026",
+      "award_amount": "",
+      "url": "https://www.grants.gov/search-results-detail/362444",
+      "phase": "",
+      "topics": [],
+      "score": 15,
+      "tier": "Not Relevant",
+      "rationale": "CAAP is a DOD academic research program designed for universities and educational institutions, not commercial companies. Sun Metalon would not be eligible as a for-profit entity unless partnering as a subcontractor to a university, and the program focus is typically on defense research rather than metal recycling.",
+      "key_match": "agency",
+      "flag_urgent": false,
+      "scored_at": "2026-05-19T14:57:24.922954"
     },
     {
       "id": "gg_306169",
@@ -1622,6 +1662,26 @@
       "key_match": "None - environmental/ecological research focus",
       "flag_urgent": false,
       "scored_at": "2026-05-14T14:06:21.901321"
+    },
+    {
+      "id": "gg_362429",
+      "source": "Grants.gov",
+      "title": "U.S. Embassy Kuwait PAS Annual Program Statement",
+      "agency": "",
+      "program": "Federal Grant",
+      "description": "",
+      "open_date": "05/19/2026",
+      "close_date": "07/15/2026",
+      "award_amount": "",
+      "url": "https://www.grants.gov/search-results-detail/362429",
+      "phase": "",
+      "topics": [],
+      "score": 5,
+      "tier": "Not Relevant",
+      "rationale": "This is a U.S. Embassy Kuwait Public Affairs Section cultural/educational grant program, not a technology or manufacturing grant. It has no relevance to metal recycling, industrial processes, or Sun Metalon's deep tech hardware business.",
+      "key_match": "None",
+      "flag_urgent": false,
+      "scored_at": "2026-05-19T14:57:28.415604"
     },
     {
       "id": "gg_361392",
