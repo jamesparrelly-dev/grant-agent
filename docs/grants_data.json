@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-19T14:57:32.140576",
-  "total_grants": 184,
-  "new_this_run": 3,
+  "last_updated": "2026-05-20T14:58:46.666971",
+  "total_grants": 186,
+  "new_this_run": 2,
   "grants": [
     {
       "id": "gg_359966",
@@ -1682,6 +1682,26 @@
       "key_match": "None",
       "flag_urgent": false,
       "scored_at": "2026-05-19T14:57:28.415604"
+    },
+    {
+      "id": "gg_362479",
+      "source": "Grants.gov",
+      "title": "New Beginning for Tribal Students Program",
+      "agency": "",
+      "program": "Federal Grant",
+      "description": "",
+      "open_date": "05/19/2026",
+      "close_date": "07/02/2026",
+      "award_amount": "",
+      "url": "https://www.grants.gov/search-results-detail/362479",
+      "phase": "",
+      "topics": [],
+      "score": 5,
+      "tier": "Not Relevant",
+      "rationale": "This grant is focused on educational programs for Tribal students and has no connection to metal manufacturing, recycling, or industrial processes. Sun Metalon's deep tech hardware and metal recovery technology does not align with educational or tribal community development objectives.",
+      "key_match": "None",
+      "flag_urgent": false,
+      "scored_at": "2026-05-20T14:58:43.332764"
     },
     {
       "id": "gg_361392",
@@ -3682,6 +3702,26 @@
       "key_match": "none",
       "flag_urgent": false,
       "scored_at": "2026-05-16T13:18:08.560986"
+    },
+    {
+      "id": "gg_362471",
+      "source": "Grants.gov",
+      "title": "Crop Protection and Pest Management",
+      "agency": "",
+      "program": "Federal Grant",
+      "description": "",
+      "open_date": "05/19/2026",
+      "close_date": "07/06/2026",
+      "award_amount": "",
+      "url": "https://www.grants.gov/search-results-detail/362471",
+      "phase": "",
+      "topics": [],
+      "score": 0,
+      "tier": "Not Relevant",
+      "rationale": "This grant focuses on agricultural crop protection and pest management, which has no connection to Sun Metalon's metal recycling and purification technology. The program addresses farming and agriculture, not industrial manufacturing or metal processing.",
+      "key_match": "none",
+      "flag_urgent": false,
+      "scored_at": "2026-05-20T14:58:46.665784"
     }
   ]
 }
