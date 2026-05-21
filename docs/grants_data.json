@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-20T14:58:46.666971",
-  "total_grants": 186,
-  "new_this_run": 2,
+  "last_updated": "2026-05-21T15:19:28.706504",
+  "total_grants": 187,
+  "new_this_run": 1,
   "grants": [
     {
       "id": "gg_359966",
@@ -142,6 +142,26 @@
       "key_match": "agency",
       "flag_urgent": false,
       "scored_at": "2026-04-25T13:00:48.442897"
+    },
+    {
+      "id": "gg_362500",
+      "source": "Grants.gov",
+      "title": "Solutions for Energy Security A U.S. India Energy Technology Partnership",
+      "agency": "",
+      "program": "Federal Grant",
+      "description": "",
+      "open_date": "05/21/2026",
+      "close_date": "06/20/2026",
+      "award_amount": "",
+      "url": "https://www.grants.gov/search-results-detail/362500",
+      "phase": "",
+      "topics": [],
+      "score": 45,
+      "tier": "Moderate",
+      "rationale": "This U.S.-India energy partnership grant could potentially align with Sun Metalon's industrial decarbonization and clean manufacturing focus, especially given their international presence. However, the geographic partnership requirement (India-focused) and energy security framing may not directly match their metal recycling technology.",
+      "key_match": "market",
+      "flag_urgent": false,
+      "scored_at": "2026-05-21T15:19:28.705385"
     },
     {
       "id": "gg_360664",
