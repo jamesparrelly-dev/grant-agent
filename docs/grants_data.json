@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-22T14:36:25.589034",
-  "total_grants": 214,
-  "new_this_run": 27,
+  "last_updated": "2026-05-23T13:20:44.271419",
+  "total_grants": 215,
+  "new_this_run": 1,
   "grants": [
     {
       "id": "gg_359966",
@@ -1802,6 +1802,26 @@
       "key_match": "None - wrong domain entirely",
       "flag_urgent": false,
       "scored_at": "2026-05-22T14:36:09.276144"
+    },
+    {
+      "id": "gg_362541",
+      "source": "Grants.gov",
+      "title": "Acer Access and Development Program",
+      "agency": "",
+      "program": "Federal Grant",
+      "description": "",
+      "open_date": "05/22/2026",
+      "close_date": "06/22/2026",
+      "award_amount": "",
+      "url": "https://www.grants.gov/search-results-detail/362541",
+      "phase": "",
+      "topics": [],
+      "score": 5,
+      "tier": "Not Relevant",
+      "rationale": "The Acer Access and Development Program relates to maple syrup (acer = maple tree) production and forestry, typically administered by USDA. This has no connection to metal manufacturing, recycling, or industrial processes relevant to Sun Metalon.",
+      "key_match": "none",
+      "flag_urgent": false,
+      "scored_at": "2026-05-23T13:20:44.270246"
     },
     {
       "id": "gg_361392",
