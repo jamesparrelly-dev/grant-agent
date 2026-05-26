@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-23T13:20:44.271419",
-  "total_grants": 215,
-  "new_this_run": 1,
+  "last_updated": "2026-05-26T15:20:21.977760",
+  "total_grants": 217,
+  "new_this_run": 2,
   "grants": [
     {
       "id": "gg_359966",
@@ -562,6 +562,26 @@
       "key_match": "agency",
       "flag_urgent": false,
       "scored_at": "2026-05-22T14:35:11.462597"
+    },
+    {
+      "id": "gg_362545",
+      "source": "Grants.gov",
+      "title": "CONSERVATION INNOVATION GRANTS (CIG) CLASSIC PROGRAM",
+      "agency": "",
+      "program": "Federal Grant",
+      "description": "",
+      "open_date": "05/26/2026",
+      "close_date": "07/27/2026",
+      "award_amount": "",
+      "url": "https://www.grants.gov/search-results-detail/362545",
+      "phase": "",
+      "topics": [],
+      "score": 15,
+      "tier": "Not Relevant",
+      "rationale": "Conservation Innovation Grants (CIG) Classic is a USDA-NRCS program focused on agricultural conservation practices on working lands, such as soil health, water quality, and farm/ranch resource management. Sun Metalon's industrial metal recycling technology does not align with agricultural conservation priorities.",
+      "key_match": "agency",
+      "flag_urgent": false,
+      "scored_at": "2026-05-26T15:20:21.976316"
     },
     {
       "id": "gg_306169",
@@ -1822,6 +1842,26 @@
       "key_match": "none",
       "flag_urgent": false,
       "scored_at": "2026-05-23T13:20:44.270246"
+    },
+    {
+      "id": "gg_362550",
+      "source": "Grants.gov",
+      "title": "Conservation Innovation Grants (CIG) On-Farm Conservation Innovation Trials for fiscal year (FY) 2026",
+      "agency": "",
+      "program": "Federal Grant",
+      "description": "",
+      "open_date": "05/26/2026",
+      "close_date": "07/27/2026",
+      "award_amount": "",
+      "url": "https://www.grants.gov/search-results-detail/362550",
+      "phase": "",
+      "topics": [],
+      "score": 5,
+      "tier": "Not Relevant",
+      "rationale": "Conservation Innovation Grants (CIG) On-Farm Trials are USDA programs focused on agricultural conservation practices on working farms and ranches. Sun Metalon's metal scrap purification technology for foundries and industrial metal producers has no relevance to on-farm agricultural applications.",
+      "key_match": "agency",
+      "flag_urgent": false,
+      "scored_at": "2026-05-26T15:20:18.229513"
     },
     {
       "id": "gg_361392",
