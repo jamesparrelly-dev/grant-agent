@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-26T15:20:21.977760",
-  "total_grants": 217,
+  "last_updated": "2026-05-29T14:59:07.950093",
+  "total_grants": 219,
   "new_this_run": 2,
   "grants": [
     {
@@ -1862,6 +1862,46 @@
       "key_match": "agency",
       "flag_urgent": false,
       "scored_at": "2026-05-26T15:20:18.229513"
+    },
+    {
+      "id": "gg_362362",
+      "source": "Grants.gov",
+      "title": "Automated Permitting Systems Demonstration NOFO",
+      "agency": "",
+      "program": "Federal Grant",
+      "description": "",
+      "open_date": "05/29/2026",
+      "close_date": "07/13/2026",
+      "award_amount": "",
+      "url": "https://www.grants.gov/search-results-detail/362362",
+      "phase": "",
+      "topics": [],
+      "score": 5,
+      "tier": "Not Relevant",
+      "rationale": "This grant focuses on automated permitting systems for construction, energy, or infrastructure projects \u2014 it's about software/process automation for government permit approvals, not metal manufacturing or recycling technology. Sun Metalon's metal scrap purification technology has no connection to permitting system development.",
+      "key_match": "None",
+      "flag_urgent": false,
+      "scored_at": "2026-05-29T14:59:04.124811"
+    },
+    {
+      "id": "gg_362360",
+      "source": "Grants.gov",
+      "title": "Mass Market Solutions for Leveraging Robotics and AI Technologies for Home Construction Demonstration",
+      "agency": "",
+      "program": "Federal Grant",
+      "description": "",
+      "open_date": "05/29/2026",
+      "close_date": "07/13/2026",
+      "award_amount": "",
+      "url": "https://www.grants.gov/search-results-detail/362360",
+      "phase": "",
+      "topics": [],
+      "score": 5,
+      "tier": "Not Relevant",
+      "rationale": "This grant focuses on robotics and AI for home construction, which is completely unrelated to Sun Metalon's metal scrap purification and recycling technology. There is no overlap with metal manufacturing, foundries, or industrial waste reduction.",
+      "key_match": "None",
+      "flag_urgent": false,
+      "scored_at": "2026-05-29T14:59:07.948821"
     },
     {
       "id": "gg_361392",
