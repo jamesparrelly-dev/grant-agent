@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-30T13:25:23.501346",
-  "total_grants": 226,
-  "new_this_run": 7,
+  "last_updated": "2026-06-01T17:35:08.403759",
+  "total_grants": 229,
+  "new_this_run": 3,
   "grants": [
     {
       "id": "gg_359966",
@@ -382,6 +382,26 @@
       "key_match": "agency",
       "flag_urgent": false,
       "scored_at": "2026-05-19T14:57:32.139392"
+    },
+    {
+      "id": "gg_362618",
+      "source": "Grants.gov",
+      "title": "Revolving Fund Program",
+      "agency": "",
+      "program": "Federal Grant",
+      "description": "",
+      "open_date": "06/01/2026",
+      "close_date": "07/03/2026",
+      "award_amount": "",
+      "url": "https://www.grants.gov/search-results-detail/362618",
+      "phase": "",
+      "topics": [],
+      "score": 25,
+      "tier": "Weak",
+      "rationale": "The Revolving Fund Program typically refers to EPA's Clean Water or Drinking Water State Revolving Funds, which are designed for water infrastructure projects rather than metal recycling or manufacturing technology. Without more program details, this appears to be infrastructure financing not aligned with Sun Metalon's metal scrap purification technology.",
+      "key_match": "agency",
+      "flag_urgent": false,
+      "scored_at": "2026-06-01T17:35:01.911479"
     },
     {
       "id": "gg_361526",
@@ -2042,6 +2062,26 @@
       "key_match": "None - education program not technology funding",
       "flag_urgent": false,
       "scored_at": "2026-05-30T13:25:23.499661"
+    },
+    {
+      "id": "gg_362623",
+      "source": "Grants.gov",
+      "title": "Lunar Payload Design Challenge",
+      "agency": "",
+      "program": "Federal Grant",
+      "description": "",
+      "open_date": "06/01/2026",
+      "close_date": "07/15/2026",
+      "award_amount": "",
+      "url": "https://www.grants.gov/search-results-detail/362623",
+      "phase": "",
+      "topics": [],
+      "score": 5,
+      "tier": "Not Relevant",
+      "rationale": "This grant focuses on designing payloads for lunar missions, which is entirely unrelated to Sun Metalon's terrestrial metal scrap recycling and purification technology. There is no alignment with metal recovery, foundry operations, or industrial decarbonization.",
+      "key_match": "None - space/lunar focus incompatible",
+      "flag_urgent": false,
+      "scored_at": "2026-06-01T17:35:08.402448"
     },
     {
       "id": "gg_361392",
@@ -4522,6 +4562,26 @@
       "key_match": "none",
       "flag_urgent": false,
       "scored_at": "2026-05-22T14:36:25.587443"
+    },
+    {
+      "id": "gg_362625",
+      "source": "Grants.gov",
+      "title": "Retail Food Safety Regulatory Association Collaboration",
+      "agency": "",
+      "program": "Federal Grant",
+      "description": "",
+      "open_date": "06/01/2026",
+      "close_date": "07/14/2026",
+      "award_amount": "",
+      "url": "https://www.grants.gov/search-results-detail/362625",
+      "phase": "",
+      "topics": [],
+      "score": 0,
+      "tier": "Not Relevant",
+      "rationale": "This grant focuses on retail food safety regulations, which has no connection to Sun Metalon's metal scrap recycling and purification technology. The food safety domain is entirely outside Sun Metalon's industrial metal manufacturing focus.",
+      "key_match": "none",
+      "flag_urgent": false,
+      "scored_at": "2026-06-01T17:35:04.334732"
     }
   ]
 }
