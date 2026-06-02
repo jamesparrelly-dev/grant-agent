@@ -1,9 +1,10 @@
 """
 main.py — Orchestrates the full grant monitoring pipeline:
-  1. scraper.py  — fetch new grants from SBIR.gov + Grants.gov
-  2. scorer.py   — score with Claude against Sun Metalon profile
-  3. notify.py   — post top matches to Slack
-  4. build_dashboard.py — regenerate static dashboard HTML
+  1. scraper.py       — fetch new grants from SBIR.gov + Grants.gov
+  2. state_scraper.py — fetch grants from 8 US state programs
+  3. scorer.py        — score with Claude against Sun Metalon profile
+  4. notify.py        — post top matches to Slack
+  5. build_dashboard.py — regenerate static dashboard HTML
 """
 
 import sys
@@ -32,11 +33,13 @@ def main():
     print(f"{'='*50}")
 
     import scraper
+    import state_scraper
     import scorer
     import notify
     import build_dashboard
 
-    run_step("Scrape grant sources", scraper.run)
+    run_step("Scrape federal grant sources", scraper.run)
+    run_step("Scrape state grant sources", state_scraper.run)
     run_step("Score with Claude", scorer.run)
     run_step("Send Slack notification", notify.run)
     run_step("Build dashboard", build_dashboard.run)
