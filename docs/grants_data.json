@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-22T17:07:00.003381",
-  "total_grants": 714,
-  "new_this_run": 22,
+  "last_updated": "2026-06-23T15:16:07.248868",
+  "total_grants": 718,
+  "new_this_run": 4,
   "grants": [
     {
       "id": "state_oh_29462693",
@@ -905,6 +905,27 @@
       "key_match": "waste reduction in industrial processes",
       "flag_urgent": false,
       "scored_at": "2026-06-22T17:06:36.737962"
+    },
+    {
+      "id": "state_pa_49756592",
+      "source": "PA State (Pennsylvania DCED / Ben Franklin)",
+      "title": "Pennsylvania Pollution Prevention Assistance Account (PPAA)",
+      "agency": "Pennsylvania DCED / Ben Franklin",
+      "program": "PA DEP PPAA",
+      "description": "Low-interest loans and grants for Pennsylvania businesses implementing pollution prevention, waste reduction, and clean manufacturing technologies.",
+      "open_date": "",
+      "close_date": "",
+      "award_amount": "250000",
+      "url": "https://www.dep.pa.gov/Business/PollutionPrevention/Pages/Funding.aspx",
+      "phase": "",
+      "topics": [],
+      "state": "PA",
+      "score": 72,
+      "tier": "Good",
+      "rationale": "Strong thematic alignment with pollution prevention, waste reduction, and clean manufacturing technologies\u2014all core to Sun Metalon's metal scrap purification system. However, this is a Pennsylvania-specific program and Sun Metalon's US operations are in Illinois (Wood Dale), making geographic eligibility a significant barrier.",
+      "key_match": "keyword",
+      "flag_urgent": false,
+      "scored_at": "2026-06-23T15:15:19.029701"
     },
     {
       "id": "gg_359966",
@@ -6798,6 +6819,27 @@
       "scored_at": "2026-06-22T17:06:59.998739"
     },
     {
+      "id": "state_in_66223906",
+      "source": "IN State (Indiana IEDC)",
+      "title": "Indiana Manufacturing Readiness Grants",
+      "agency": "Indiana IEDC",
+      "program": "IEDC Manufacturing",
+      "description": "Grants helping Indiana manufacturers adopt new technologies, improve efficiency, and reduce environmental impact. Small to mid-size manufacturers are eligible.",
+      "open_date": "",
+      "close_date": "",
+      "award_amount": "50000",
+      "url": "https://iedc.in.gov/programs/manufacturing",
+      "phase": "",
+      "topics": [],
+      "state": "IN",
+      "score": 35,
+      "tier": "Weak",
+      "rationale": "This grant targets Indiana-based manufacturers, but Sun Metalon's US operations are in Wood Dale, IL (Illinois), making them ineligible. While the focus on manufacturing efficiency and environmental impact aligns well with Sun Metalon's technology, the geographic restriction disqualifies them.",
+      "key_match": "market",
+      "flag_urgent": false,
+      "scored_at": "2026-06-23T15:14:45.228534"
+    },
+    {
       "id": "gg_361604",
       "source": "Grants.gov",
       "title": "National Science Foundation Fostering Interdisciplinary Networks to Develop Emergent and Responsive Solutions Foundry",
@@ -11692,6 +11734,26 @@
       "scored_at": "2026-06-22T17:05:42.020508"
     },
     {
+      "id": "gg_362910",
+      "source": "Grants.gov",
+      "title": "Regional Conservation Partnership Program (RCPP) Alternative Funding Arrangements (AFA) for Federal fiscal year (FY) 2026",
+      "agency": "",
+      "program": "Federal Grant",
+      "description": "",
+      "open_date": "06/23/2026",
+      "close_date": "08/24/2026",
+      "award_amount": "",
+      "url": "https://www.grants.gov/search-results-detail/362910",
+      "phase": "",
+      "topics": [],
+      "score": 5,
+      "tier": "Not Relevant",
+      "rationale": "RCPP is a USDA Natural Resources Conservation Service program focused on agricultural land conservation, soil health, and water quality for farmers and ranchers. This has no relevance to Sun Metalon's industrial metal recycling and foundry technology.",
+      "key_match": "agency",
+      "flag_urgent": false,
+      "scored_at": "2026-06-23T15:13:01.561809"
+    },
+    {
       "id": "gg_361392",
       "source": "Grants.gov",
       "title": "Fiscal Year 2027 National Sea Grant College Program Dean John A. Knauss Marine Policy Fellowship",
@@ -14710,6 +14772,26 @@
       "key_match": "none",
       "flag_urgent": false,
       "scored_at": "2026-06-18T15:39:20.389203"
+    },
+    {
+      "id": "gg_360498",
+      "source": "Grants.gov",
+      "title": "Traumatic Brain Injury Model Systems National Data and Statistical Center",
+      "agency": "",
+      "program": "Federal Grant",
+      "description": "",
+      "open_date": "06/22/2026",
+      "close_date": "07/29/2026",
+      "award_amount": "",
+      "url": "https://www.grants.gov/search-results-detail/360498",
+      "phase": "",
+      "topics": [],
+      "score": 0,
+      "tier": "Not Relevant",
+      "rationale": "This grant focuses on Traumatic Brain Injury research and medical data systems, which has no connection to metal manufacturing, recycling, or industrial processes. It is completely outside Sun Metalon's technology domain and target industries.",
+      "key_match": "None - medical research grant",
+      "flag_urgent": false,
+      "scored_at": "2026-06-23T15:13:19.858485"
     }
   ]
 }
